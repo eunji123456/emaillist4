@@ -50,7 +50,7 @@ public class EmaillistController {
 		map.put("last_name", "s");
 		map.put("email", "jeju@naver.com");
 		List<EmaillistVo> list = dao.getListByMap(map);
-		
+		System.out.println("2");
 		System.out.println(list.toString());
 		
 	/*	EmaillistVo vo = dao.getByNo(2);
